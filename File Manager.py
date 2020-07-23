@@ -14,7 +14,7 @@ import os
 import shutil
 import send2trash
 
-print('Welcome to the python-file-manager\n')
+print('Welcome to the python-CLI-file-manager\n')
 
 # Stores every drive connected on PC in a list.
 drives = [chr(x) + ':' for x in range(65, 90) if os.path.exists(chr(x) + ':')]
